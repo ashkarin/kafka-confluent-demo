@@ -1,0 +1,11 @@
+{
+    "type": "record",
+    "namespace": "demo.record_changed",
+    "name": "RecordKey",
+    "fields": [
+        {
+            "name": "record_id", 
+            "type": "string"
+        }
+    ]
+}

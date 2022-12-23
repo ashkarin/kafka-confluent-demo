@@ -1,0 +1,86 @@
+{
+    "type": "record",
+    "namespace": "demo.record_changed",
+    "name": "RecordChanged",
+    "fields": [
+        {
+            "name": "data",
+            "type": [
+                {
+                    "name": "driver",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": "string"
+                        },
+                        {
+                            "name": "phone_number",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "name",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        }
+                    ]
+                },
+                {
+                    "name": "truck",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": "string"
+                        },
+                        {
+                            "name": "license_plate",
+                            "type": "string"
+                        },
+                        {
+                            "name": "type",
+                            "type": "string"
+                        },
+                        {
+                            "name": "body_type",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        }
+                    ]
+                },
+                {
+                    "name": "trailer",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": "string"
+                        },
+                        {
+                            "name": "license_plate",
+                            "type": "string"
+                        },
+                        {
+                            "name": "body_type",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

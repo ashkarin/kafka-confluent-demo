@@ -1,0 +1,37 @@
+
+
+.terraform
+terraform.log
+terraform.tfstate*
+terraform.tfplan
+**/.terraform/*
+*.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+out.plan
+plan
+
+# General
+*$py.class
+*.egg-info/
+*.py[cod]
+.AppleDouble
+.DS_Store
+.LSOverride
+.coverage
+.coverage.*
+*.pytest_cache/
+__pycache__/
+dist/
+docs/_build
+htmlcov/
+setup.py
+.tmuxp.*
+
+# Dev
+.idea/
+.vscode/
+.venv/
+.vscode/
+*.mypy_cache/
+local_scripts/.env
